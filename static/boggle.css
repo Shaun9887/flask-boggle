@@ -1,0 +1,67 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+#boggle {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+
+.board {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tbody tr td {
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+h1 {
+    position: relative;
+    left: 25%;
+}
+
+p,
+ul {
+    position: relative;
+}
+
+button {
+    background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    border: 0;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+
+form {
+    position: relative;
+    justify-content: center;
+}
+
+.msg {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
